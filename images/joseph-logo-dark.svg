@@ -1,0 +1,41 @@
+<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="swashDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D8AE6B"/>
+      <stop offset="100%" stop-color="#B98B4E"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="680" height="240" fill="#101B2C"/>
+
+  <!-- Monogram J in ivory -->
+  <path d="
+    M 58 34
+    L 150 34
+    L 150 62
+    L 118 62
+    L 118 140
+    C 118 168, 100 182, 72 182
+    C 54 182, 40 174, 30 160
+    L 52 138
+    C 58 146, 65 151, 72 151
+    C 84 151, 90 143, 90 126
+    L 90 62
+    L 58 62
+    Z
+  " fill="#FAF8F3"/>
+
+  <!-- Signature swash -->
+  <path d="M 34 168 C 140 208, 340 208, 552 176"
+        fill="none" stroke="url(#swashDark)" stroke-width="5"
+        stroke-linecap="round"/>
+  <path d="M 552 176 C 566 174, 578 168, 586 158"
+        fill="none" stroke="url(#swashDark)" stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Wordmark in ivory -->
+  <text x="180" y="128"
+        font-family="'Century Gothic','Trebuchet MS','Futura',sans-serif"
+        font-size="66" font-weight="600" letter-spacing="10"
+        fill="#FAF8F3">JOSEPH</text>
+</svg>

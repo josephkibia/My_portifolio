@@ -1,0 +1,19 @@
+<svg viewBox="0 0 520 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="swash3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B98B4E"/>
+      <stop offset="100%" stop-color="#8C6A34"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wordmark -->
+  <text x="10" y="88"
+        font-family="'Century Gothic','Trebuchet MS','Futura',sans-serif"
+        font-size="66" font-weight="600" letter-spacing="10"
+        fill="#16283F">JOSEPH</text>
+
+  <!-- Signature swash underline -->
+  <path d="M 12 112 C 140 140, 340 140, 500 108"
+        fill="none" stroke="url(#swash3)" stroke-width="5"
+        stroke-linecap="round"/>
+</svg>
