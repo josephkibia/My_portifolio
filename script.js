@@ -20,6 +20,7 @@
         function closeMenu(){
             sidemenu.style.right = "-200px";
         }
+        
 
         //scrolling back to top smoothly
         const scrllBtn = document.getElementById("backToTop");
