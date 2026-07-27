@@ -383,4 +383,9 @@ cursor: pointer;
 }
     
 }
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
 
