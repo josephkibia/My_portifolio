@@ -21,5 +21,14 @@
             sidemenu.style.right = "-200px";
         }
 
-        
+        //scrolling back to top smoothly
+        const scrllBtn = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+        scrllBtn.style.display = window.scrollY > 300 ? "block" : "none";
+        });
+
+        scrllBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+});
     

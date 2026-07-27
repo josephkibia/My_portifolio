@@ -388,4 +388,26 @@ cursor: pointer;
     margin-top: -40px;
     display: block;
 }
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;          /* hidden until you scroll down */
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #16283F;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+#backToTop:hover {
+  background: #B98B4E;
+  transform: translateY(-3px);
+}
 
