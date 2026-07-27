@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Kibia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/848639271c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times nav-i" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa fa-bars nav-i" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Joseph</span> <br> from Nairobi,Kenya</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about =================-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolorum dolore? Nam modi perspiciatis dolores. Amet vitae quo, optio quidem praesentium repellendus maiores cum iure pariatur quia aspernatur magni neque!
+                    Dolores recusandae eveniet quis doloremque iste ut veritatis quisquam voluptas obcaecati voluptatibus.</p>
+                    
+                    <div class="tab-sub-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX </span><br>Designing Web/App interfaces></li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2026-current</span><br>Software Development at McTaba</li>
+                            <li><span>2024 - 2025</span><br>API development intern at Wisepower Technologies Ltd</li>
+                            <li><span>2020-2023</span><br>KRA syytem integrator at Farex Technologies Ltd</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026 </span><br>Bootcamp at McTaba></li>
+                            <li><span>2021</span><br>Diploma at Institute of Software Development</li>
+                            <li><span>2010</span><br>Diploma from Technical Unversity of Kenya</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services=======--------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code " style="font-size: 40px; padding: 20px;"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Alias dignissimos error illum porro ullam perspiciatis deserunt eaque iste qui? Ullam.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop " style="font-size: 40px; padding: 20px;"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Alias dignissimos error illum porro ullam perspiciatis deserunt eaque iste qui? Ullam.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-apple " style="font-size: 40px; padding: 20px;" ></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Alias dignissimos error illum porro ullam perspiciatis deserunt eaque iste qui? Ullam.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+<!-- portifolio -->
+<div id="portifolio">
+    <div class="container">
+       <h1 class="sub-title">My Work</h1>
+       <div class="work-list">
+
+          <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href=""><i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href=""><i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="">
+            <div class="layer">
+                <h3>ETIMS Integration</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href=""><i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+       </div>
+       <a href="#" class="btn">See More >></a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa fa-paper-plane icon" ></i>kibiajoseph@gmail.com</p>
+            <p><i class="fa fa-phone icon" ></i>0724636510</p>
+            <div class="social-icons">
+                <a href=""><i class="fa fa-facebook-official" ></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form action="" name="YOUR_FORM_NAME">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Joseph.kibiajoseph@gmail.com 2026</p>
+    </div>
+</div>
+
+
+     <!-- javascript ------------->
+      <script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbzB8KzHuR_smc6YPDqxzFnMomTZI5JrNiL_2gjxQulB4LopgZNzqwUgXpUGAy_aD8WWZA/exec'
+	const form = document.forms['YOUR_FORM_NAME']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => console.log('Success!', response))
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+      <script src="script.js"></script>
+   
+</body>
+</html>
